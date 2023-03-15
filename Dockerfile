@@ -14,3 +14,6 @@ ENV ENVIRONMENT production
 
 # copy code from current directory
 COPY ./app /app
+
+#Expose
+EXPOSE 80
